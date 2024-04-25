@@ -1,0 +1,15 @@
+{
+  "name": "5-workspace",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "packages/user",
+    "packages/admin"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
